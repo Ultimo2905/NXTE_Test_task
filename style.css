@@ -1,0 +1,211 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    font-family: "Lato", light, sans-serif;
+    max-width: 1440px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 110px;
+    max-width: 110px;
+}
+
+.header-nav-container {
+    background-color: #fbc840;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.containerSize {
+    width: 76.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-container {
+    padding-top: 16px;
+}
+
+.setDisplayFlexmod {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin-left: 24px;
+
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #373737;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+input[type=text] {
+    border: none;
+    width: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fbc840;
+    background-image: url('images/loupe.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 28px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.imgHeaderBox {
+    position: relative;
+    background-image: url("images/pic_header.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.topBoxInfo {
+    width: 44.5%;
+    height: 431px;
+    float: right;
+    background-image: url("images/bg_header.png");
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.topBoxInfo h3 {
+    margin-bottom: 0;;
+}
+
+.topBoxInfo img{
+    max-width: 100%;
+}
+.titleTextTopBox {
+    font-size: 38px;
+    line-height: 34px;
+    color: #373737;
+    font-weight: 300;
+}
+
+.textTopBox {
+    width: 343px;
+    height: 353px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4f4e4d;
+    font-weight: 300;
+}
+
+header {
+    background-image: url("images/pic_header.jpg");
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:cover;
+}
+
+.infotextCenterBox {
+    height:100%;
+    background-image: url("images/bg_orange_grey.png");
+}
+
+.infotextCenterBoxHeader {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 68px;
+}
+
+.infoTextBox {
+    margin: 100px auto 86px auto;
+    max-width: 660px;
+    text-align: left;
+}
+
+.verpraaksaamBox {
+    margin: 52px auto 116px auto;
+}
+
+.titleStyleMod {
+    line-height: 38px;
+    font-size: 42px;
+    color: #373737;
+    font-weight: lighter;
+}
+
+.infoTextBox p {
+    line-height: 28px;
+    font-size: 18px;
+    color: #4f4e4d;
+}
+
+.VerpraaksaamContainerInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerboxesInfo {
+    display: flex;
+}
+
+.boxHeight {
+    background-image: url("images/bg_verpraaksaam.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 408px;
+    text-align: left;
+    padding:10px 0 0 29px;
+}
+
+.titletextCenterBox {
+    font-family: Neucha, sans-serif;
+    font-size: 34px;
+    margin: 0;
+}
+
+.contenttextCenterBox {
+    line-height: 28px;
+    font-size: 18px;
+    max-width: 237px;
+}
+
+.textTopBoxTitle {
+    font-family: Neucha, sans-serif;
+    font-size: 34px;
+    margin: 0;
+}
+
+.textTopBoxText {
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.footer {
+    margin: 160px auto 50px auto;
+}
+
+
